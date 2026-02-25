@@ -1,0 +1,13 @@
+How to Test Pagination
+
+Pagination splits large content into pages. Test the following:
+
+- Page navigation: Next, Previous, and page number links load the correct page
+- First/last page: "First" and "Last" buttons jump to the correct page
+- Current page indicator: The active page is clearly highlighted
+- Page size: Changing items per page (10, 25, 50) updates the list and resets to page 1
+- Empty state: No results or single page shows appropriate messaging
+- URL sync: Page number in the URL reflects the current page; changing URL updates the view
+- Edge cases: Page 1 has no Previous; last page has no Next; invalid page numbers are handled
+- Loading: Loading indicator shows when fetching a new page
+- Performance: Switching pages does not trigger unnecessary full reloads

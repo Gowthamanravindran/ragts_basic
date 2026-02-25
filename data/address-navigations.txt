@@ -1,0 +1,12 @@
+How to Test Address Bar / URL Navigation
+
+Address bar navigation involves URL changes and browser history. Test the following:
+
+- URL updates: Navigating in-app updates the address bar to reflect the current route
+- Direct URL entry: Typing or pasting a URL and pressing Enter loads the correct page
+- Query parameters: URL params (e.g. ?page=2&sort=name) are read and applied correctly
+- Hash fragments: Hash-based routing (#/section) works if used
+- History API: pushState and replaceState update the URL without full page reload
+- Bookmarking: Users can bookmark a URL and return to the same state later
+- Share links: Copying the URL and opening in a new tab shows the same view
+- Invalid URLs: Malformed or outdated URLs redirect to a safe fallback (e.g. home or 404)

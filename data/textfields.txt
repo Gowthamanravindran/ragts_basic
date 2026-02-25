@@ -1,0 +1,13 @@
+How to Test Text Fields
+
+Text fields (inputs, textareas) accept user input. Test the following:
+
+- Basic input: Type text and verify it appears correctly
+- Placeholder: Placeholder text shows when empty and disappears when focused or when user types
+- Validation: Required fields, min/max length, format (email, phone) show appropriate error messages
+- Clear/reset: Clear button or Escape key clears the field if supported
+- Copy/paste: Paste content works and respects max length
+- Disabled/readonly: Field does not accept input when disabled or readonly
+- Focus and blur: Tab order is correct; blur validation triggers when leaving the field
+- Accessibility: Labels are associated; screen readers announce the field correctly
+- Edge cases: Very long input, special characters, emoji, RTL text

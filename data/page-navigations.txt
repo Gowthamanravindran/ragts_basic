@@ -1,0 +1,12 @@
+How to Test Page Navigations
+
+Page navigation moves users between views or sections. Test the following:
+
+- Link clicks: Clicking links loads the correct page or section
+- Back/forward: Browser back and forward buttons work as expected
+- Breadcrumbs: Breadcrumb links navigate to the correct parent pages
+- Menu navigation: Sidebar, header, or tab menus navigate to the right routes
+- Deep linking: Direct URL access loads the correct page and state
+- Loading state: Navigation shows a loading indicator while the new page loads
+- 404 handling: Invalid routes show a proper "not found" page
+- Preserved state: Query params, scroll position, or form data are preserved when appropriate

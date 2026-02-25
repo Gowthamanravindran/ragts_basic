@@ -1,0 +1,13 @@
+How to Test Forms
+
+Forms collect and submit user data. Test the following:
+
+- Required fields: Form cannot submit until all required fields are valid
+- Validation: Inline validation (on blur or change) and submit-time validation both work
+- Submit: Submit button sends data to the correct endpoint with correct payload
+- Success: Success message or redirect after successful submission
+- Error handling: Server errors (4xx, 5xx) display user-friendly messages
+- Reset: Reset or Cancel clears the form or navigates away
+- Multiple submit clicks: Form is not submitted multiple times (button disabled or debounced)
+- Conditional fields: Fields that show/hide based on other inputs work correctly
+- File uploads: File input accepts allowed types and sizes; upload progress and errors are shown
