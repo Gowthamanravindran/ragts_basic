@@ -1,0 +1,11 @@
+How to Test Buttons
+
+Buttons are interactive elements that trigger actions when clicked. Test the following:
+
+- Click behavior: Verify the button performs its intended action (submit, cancel, navigate, etc.)
+- Disabled state: When disabled, the button should not respond to clicks
+- Loading state: If the action is async, the button may show a spinner or "Loading..." and be disabled during the request
+- Accessibility: Buttons should be focusable via keyboard (Tab) and activatable with Enter/Space
+- Visual feedback: Hover and active (pressed) states should be visible
+- Multiple rapid clicks: Ensure the action is not triggered multiple times (debouncing or disabling after first click)
+- Button text and icons: Confirm labels are correct and icons render properly
